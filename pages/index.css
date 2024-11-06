@@ -11,7 +11,7 @@
 .header {
   background-color: #ffffff;
   background-image: url(../images/background_header.svg);
-  size: cover;
+  background-size: cover;
   height: 800px;
   position: relative;
 }
@@ -130,7 +130,7 @@
   color: #fff;
   background-color: #0a2750;
   background-image: url(../images/background_recipes.svg);
-  size: cover;
+  background-size: cover;
   padding: 100px 80px 215px;
 }
 
