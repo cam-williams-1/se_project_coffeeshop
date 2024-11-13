@@ -44,12 +44,8 @@
           </ul>
         </nav>
         <h1 class="header__title">
-          <span class="header__title header__title_span-accent"
-            >Specialty Coffee</span
-          >
-          <span class="header__title header__title_span-title"
-            >in the Triple Peaks Library</span
-          >
+          <span class="header__span-accent">Specialty Coffee</span>
+          in the Triple Peaks Library
         </h1>
         <p class="header__description">
           <span class="header__description header__description_span"
@@ -66,12 +62,12 @@
           alt="header background"
         />
         <div class="header__footer">
-          <ul class="header__footer header__footer_hours">
+          <ul class="header__hours">
             <li>Hours:</li>
             <li>Monday – Friday (10:00 – 19:00)</li>
             <li>Saturday – Sunday (11:00 – 18:00)</li>
           </ul>
-          <p class="header__footer header__footer_address">
+          <p class="header__paragraph">
             200 Success Avenue, The Town of Triple Peaks
           </p>
         </div>
@@ -80,28 +76,25 @@
         <section class="recipes" id="recipes">
           <h2 class="recipes__title">Recipes</h2>
           <p class="recipes__subtitle">
-            <span class="recipes__subtitle recipes__subtitle_span-top"
-              >Check out some recipes we've collected for</span
-            ><span class="recipes__subtitle recipes__subtitle_span-bottom"
-              >your home-brewing convenience:</span
-            >
+            Check out some recipes we've collected for your home-brewing
+            convenience:
           </p>
           <ul class="recipes__videos">
-            <li class="recipes__videos recipes__videos_aeropress">
+            <li class="recipes__videos_item">
               <iframe
-                class="recipes__videos recipes__iframe"
+                class="recipes__iframe"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc?si=PNLIyix76N4psbHH"
               ></iframe>
-              <p class="recipes__caption recipes__caption_aeropress">
+              <p class="recipes__caption">
                 <span>Aeropress recipe</span><span>~5 min</span>
               </p>
             </li>
-            <li class="recipes__videos recipes__videos_french-press">
+            <li class="recipes__videos_item">
               <iframe
-                class="recipes__videos recipes__iframe"
+                class="recipes__iframe"
                 src="https://www.youtube.com/embed/st571DYYTR8?si=UuPbNC3m_4asxnWK"
               ></iframe>
-              <p class="recipes__caption recipes__caption_french-press">
+              <p class="recipes__caption">
                 <span>French press recipe</span><span>~15 min</span>
               </p>
             </li>
@@ -110,7 +103,7 @@
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Book a table</h2>
           <form class="form reservation__form">
-            <fieldset class="form form__fieldset">
+            <fieldset class="form__fieldset">
               <label for="name" class="form__label">
                 Name *
                 <input
@@ -157,9 +150,7 @@
                 />
               </label>
             </fieldset>
-            <button type="submit" class="form form__button">
-              Book a table
-            </button>
+            <button type="submit" class="form__button">Book a table</button>
             <label for="checkbox" class="form__label form__label_type_checkbox">
               <input
                 type="checkbox"
@@ -179,7 +170,7 @@
             use biodegradable cups. All teas from our collection are $2/cup.
           </p>
           <div class="menu__cards">
-            <block class="card">
+            <div class="card">
               <h3 class="card__title">Filter</h3>
               <ul class="card__list">
                 <li class="card__list-item">
@@ -208,8 +199,8 @@
                   $1.25
                 </li>
               </ul>
-            </block>
-            <block class="card">
+            </div>
+            <div class="card">
               <h3 class="card__title">Espresso</h3>
               <ul class="card__list">
                 <li class="card__list-item">
@@ -233,8 +224,8 @@
                   $10
                 </li>
               </ul>
-            </block>
-            <block class="card">
+            </div>
+            <div class="card">
               <h3 class="card__title">Baked Goods</h3>
               <ul class="card__list">
                 <li class="card__list-item">
@@ -268,7 +259,7 @@
                   $0.25
                 </li>
               </ul>
-            </block>
+            </div>
           </div>
         </section>
         <section class="about" id="contacts">

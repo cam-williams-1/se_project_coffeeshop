@@ -39,6 +39,11 @@
   color: #fff;
   text-decoration: none;
   transition: opacity 1s ease-in;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__social-link:hover {
@@ -48,11 +53,7 @@
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
+  margin-right: 10px;
 }
 
 .footer__copyright {
