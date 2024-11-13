@@ -1,16 +1,5 @@
-# Triple Peaks Coffee Shop
+# SE Project Coffeeshop
 
-This is the second project of the Software Engineering program at TripleTen. It was created using HTML and CSS, based on the design brief.
+## This web design implements html blocks with css styles that color, organize, and animate the information about the Triple Peaks Coffeeshop! You can look at our menu, book a table, and find our social media links!
 
-## Project features
-
-- Semantic HTML5
-- Flexbox
-- Positioning
-- Flat BEM file structure
-- A custom form
-- CSS animation and transform
-
-## Plan on improving the project
-
-Add your ideas here :)
+### I plan on improving this project with revealed photos of the coffee shop and some latte art from the baristas that appear when hovered over the menu items - using z-index and the hover pseudo class.
