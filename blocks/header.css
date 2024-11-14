@@ -29,13 +29,13 @@
 }
 
 .header__span-accent {
+  display: block;
   color: #3f96f3;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
   line-height: 72px;
-  color: #3f96f3;
 }
 
 .header__description {
@@ -54,7 +54,6 @@
 }
 
 .header__hours {
-  flex-direction: column;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -67,6 +66,7 @@
 
 .header__paragraph {
   margin: 0;
+  margin-top: auto;
   font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
